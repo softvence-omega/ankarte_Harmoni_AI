@@ -1,5 +1,7 @@
 """Main entry point for simple MCP server with GitHub OAuth authentication."""
 
+import utils.transport
+import utils.session
 import sys
 
 from mcp_simple_auth.server import main
